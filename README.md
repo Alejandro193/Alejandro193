@@ -1,4 +1,9 @@
-Alejandro Puig's Github Profile
+<p align="center" width="300">
+   <img align="center" width="200" src="https://avatars.githubusercontent.com/u/56606898?v=4" />
+   <h3 align="center">Alejandro Puig's Github Profile</h3>
+</p>
+
+
 Hello! Welcome to my Github profile. Here, you'll find information about me and the projects I'm working on. Explore and learn more about my work!
 About Me
 I am a passionate Django programmer based in Cuba. I love the world of computing, especially programming.
