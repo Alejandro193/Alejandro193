@@ -33,4 +33,4 @@ Soft Skills
     Time management
 
 Contact
-Feel free to contact me for collaborations, inquiries, or just to chat about technology! You can find me on [your social media profile link] or send me an email at [your email address]. Thank you for visiting my profile! I hope you enjoy exploring my projects and contributions. See you soon! 🚀
+Feel free to contact me for collaborations, inquiries, or just to chat about technology! You can find me on [[Whatsapp]](https://wa.link/h1grje) or send me an email at [apuig0502@gmail.com]. Thank you for visiting my profile! I hope you enjoy exploring my projects and contributions. See you soon! 🚀
