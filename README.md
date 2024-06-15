@@ -54,4 +54,4 @@ Communication | Teamwork | Problem-solving | Adaptability | Time management
   <br/>
   <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alejandro193&langs_count=8&layout=compact&theme=vue-dark&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
 </div>
-<img width=100% src="https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&text=See%20you&animation=scaleIn&textBg=false"/>
+<!-- <img width=100% src="https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&text=See%20you&animation=scaleIn&textBg=false"/> -->
