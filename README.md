@@ -56,7 +56,7 @@
 </div>
 
 ---
-## 📌 Recent Commits
+<!-- ## 📌 Recent Commits -->
 
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
