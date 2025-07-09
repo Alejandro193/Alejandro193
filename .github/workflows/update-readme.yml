@@ -1,0 +1,27 @@
+name: Update Recent Commits
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Cada hora
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    name: Update Recent Commits in README
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v3
+
+      - name: Generate recent commits
+        uses: Readme-Workflows/recent-commits@v2
+        with:
+          username: Alejandro193
+          max_lines: 5
+
+      - name: Push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github-actions
+          author_email: actions@github.com
+          message: '📌 Update recent commits'
