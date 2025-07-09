@@ -56,6 +56,11 @@
 </div>
 
 ---
+## 📌 Recent Commits
+
+<!-- RECENT_COMMITS:start -->
+<!-- RECENT_COMMITS:end -->
+---
 
 ## 📬 Contact Me
 
