@@ -58,8 +58,8 @@
 ---
 ## 📌 Recent Commits
 
-<!-- RECENT_COMMITS:start -->
-<!-- RECENT_COMMITS:end -->
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 ---
 
 ## 📬 Contact Me
