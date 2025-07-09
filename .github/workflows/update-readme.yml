@@ -1,30 +1,31 @@
-name: Update Recent Commits
+name: Update Recent Activity
 
 on:
   schedule:
-    - cron: '0 * * * *'  # cada hora
+    - cron: "*/30 * * * *"  # cada 30 minutos
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      - name: Generate recent commits
-        uses: actions-js/profile-commits@v1
+      - name: Update README with recent activity
+        uses: jamesgeorge007/github-activity-readme@master
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          max_commits: 5
-          committer_username: Alejandro193
-          readme_path: README.md
-          marker: RECENT_COMMITS
-          include_repos: true
+          GH_USERNAME: Alejandro193
+          MAX_LINES: 5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit & Push
+      - name: Commit & push changes
         uses: EndBug/add-and-commit@v9
         with:
           author_name: github-actions
           author_email: actions@github.com
-          message: '📝 Update recent commits'
+          message: "🔄 Update recent activity"
